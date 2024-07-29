@@ -46,7 +46,7 @@ const data = await getAllNotes(user?.id as string)
                   <p className="text-sm text-muted-foreground">
                     écrit le {new Intl.DateTimeFormat("fr-FR", {
                       dateStyle: "full"
-                    }).format(new Date(item.createAt))}
+                    }).format(new Date(item.createdAt))}
                   </p>
                 </div>
                 <div className="flex items-center gap-2">
