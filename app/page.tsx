@@ -7,6 +7,7 @@ import { Typewriter, Cursor } from "react-simple-typewriter";
 import ButtonProvider from "./components/ButtonProvider";
 import { useSession } from "next-auth/react";
 import { redirect } from "next/navigation";
+import { Card } from "@/components/ui/card";
 
 export default function Home() {
 

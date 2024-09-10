@@ -1,0 +1,39 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "Comment ça va ?",
+        "choices": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+        
+      },
+      {
+        "id": 2,
+        "question": "As tu bien dormi ?",
+        "choices": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Est ce que ça marche ?",
+        "choices": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    ]
+  }
+  

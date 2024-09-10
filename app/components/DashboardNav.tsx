@@ -1,6 +1,6 @@
 "use client"
 
-import {Notebook, Settings, CreditCard} from "lucide-react"
+import {Notebook, Settings, CreditCard, Files} from "lucide-react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 
@@ -12,6 +12,8 @@ const menuDashboard = [
     {name:"Notes", icon:Notebook, path:"/dashboard/notes"},
     {name:"Settings", icon:Settings, path:"/dashboard/settings"},
     {name:"Payment", icon:CreditCard, path:"/dashboard/payment"},
+    {name:"Questions", icon:Files, path:"/dashboard/questions"},
+
 
 
 ]
